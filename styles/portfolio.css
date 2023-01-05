@@ -119,7 +119,7 @@ main{
 .section-title{
     margin-top: 130px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .skill-title{
@@ -140,3 +140,75 @@ main{
 }
 
 /* resume section style */
+
+.section-title{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+
+
+}
+
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-title{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 30px;
+   
+}
+.title{
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 25px;
+
+
+}
+.resume .sub-title{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+
+}
+.resume .description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    
+}
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+/* contact footer style */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact ,input[type="name"], textarea{
+    margin-bottom: 24px;
+    border: 0px;
+    width: 100%;
+    padding: 18px 30px;
+}
+input{
+    height: 20px;
+}
+.contact a{
+    text-decoration: none;
+}
